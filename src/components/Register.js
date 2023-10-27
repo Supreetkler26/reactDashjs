@@ -3,6 +3,8 @@ import React, { useState } from "react";
 
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
+//Main register function where user enters credentials to access app and becomes a new user.
+
 function Register() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

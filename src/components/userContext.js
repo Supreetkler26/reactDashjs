@@ -12,6 +12,7 @@ const UserContext = createContext({})
 //Custom Hook useUserContext
 export const useUserContext = () => useContext(UserContext);
 
+//The screen where data is fetched from firebase.
 export const UserContextProvider = ({ children }) => {
     const [user, setUser] = useState(null);
     const [loading, setLoading] = useState();

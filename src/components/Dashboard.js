@@ -8,6 +8,8 @@ import { getAuth } from "firebase/auth";
 const auth = getAuth();
 const user = auth.currentUser;
 
+//Main Dashboard where user encounters the UI.
+
 function Dashboard() {
 
   return (

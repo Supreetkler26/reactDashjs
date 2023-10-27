@@ -2,6 +2,7 @@ import React, {useRef} from "react";
 import {useUserContext} from "../../context/userContext";
 import './SignIn.css'
 
+//Function from where the user enters the credentials and next enters the web app.
 const SignIn = () => {
     const emailRef = useRef();
     const passwordRef = useRef();
